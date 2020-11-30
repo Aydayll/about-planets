@@ -42,3 +42,8 @@ section{
     height: 100vh;
     filter: brightness(0.6);
 }
+.rock1{
+    position: absolute !important;
+    left: 10vw !important;
+    top: 20vh !important;
+}
