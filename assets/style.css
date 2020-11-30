@@ -22,17 +22,19 @@ nav{
     font-weight: 600;
     font-size: 16px;
 }
-nav.nav-links ul{
+.nav-links ul{
     display: flex;
     flex-direction: row;
 }
-nav.nav-links ul li{
+.nav-links ul li{
   padding: 0 4px; 
   list-style: none; 
 }
-nav .nav-links ul li img{
+ .nav-links ul li img{
     transform: scale(0.45);
 }
 section{
+    height: 100vh;
+    overflow: hidden;
     
 }
