@@ -60,3 +60,12 @@ section{
     top: 35vh;
     left: 34vw;
 }
+.earth img{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 34vw;
+    top: 25vh;
+    z-index: 1;
+    filter: brightness(0.7);
+}
