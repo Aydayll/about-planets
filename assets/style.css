@@ -74,3 +74,10 @@ section{
     top: -100px !important;
     top: unset !important;
 }
+.mid img{
+    width: 100%;
+    z-index: 2;
+    left: -20px;
+    top: 20vh !important;
+    filter: brightness(0.8);
+}
