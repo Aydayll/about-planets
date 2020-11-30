@@ -49,6 +49,14 @@ section{
 }
 .rock1 img{
     width: 40%;
-    filter: brightness(0.5)
-    ;
+    filter: brightness(0.5);
+}
+.text h1{
+    font-family: "AlphaCentauri"!important;
+    font-size: 5vw;
+    color: #fff;
+    letter-spacing: 20px;
+    position: absolute;
+    top: 35vh;
+    left: 34vw;
 }
