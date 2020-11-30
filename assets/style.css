@@ -131,3 +131,12 @@ body {
     justify-content: space-evenly;
     list-style: none;
   }
+.planet-links .swiper-pagination-bullet{
+    opacity: 0.2;
+    outline: none;
+}
+.planet-links .swiper-pagination-bullet-active{
+    color: #fff;
+    opacity: 1;
+    
+}
