@@ -22,3 +22,10 @@ nav{
     font-weight: 600;
     font-size: 16px;
 }
+nav.nav-links ul{
+    display: flex;
+    flex-direction: row;
+}
+nav.nav-links ul li{
+    
+}
