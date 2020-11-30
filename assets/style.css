@@ -69,3 +69,8 @@ section{
     z-index: 1;
     filter: brightness(0.7);
 }
+.mid{
+    left: -150px !important;
+    top: -100px !important;
+    top: unset !important;
+}
