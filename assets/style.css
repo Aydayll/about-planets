@@ -81,3 +81,9 @@ section{
     top: 20vh !important;
     filter: brightness(0.8);
 }
+.fore{
+    right: -50px !important;
+    bottom: -200px !important;
+    top: 0px !important;
+    left: unset !important;
+}
