@@ -1,0 +1,1 @@
+let scene = document.getElementById("scene");
