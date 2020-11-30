@@ -36,5 +36,9 @@ nav{
 section{
     height: 100vh;
     overflow: hidden;
-    
+}
+.bg img{
+    width: 110vw;
+    height: 100vh;
+    filter: brightness(0.6);
 }
