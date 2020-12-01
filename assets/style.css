@@ -205,4 +205,13 @@ body {
    .slide-number p span{
      position: absolute;
    }
+   .slide-detail{
+     position: absolute;
+     top: 130px;
+     left: 30%;
+     z-index: 10;
+     width: 50%;
+     height: 400px;
+     overflow: hidden;
+   }
    
