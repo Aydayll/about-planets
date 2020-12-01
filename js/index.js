@@ -1,7 +1,7 @@
 let scene = document.getElementById("scene");
 let parallaxInstance = new Parallax(scene);
 
-let keys = [
+var keys = [
     "Mercury",
     "Venus",
     "Earth",
@@ -9,19 +9,20 @@ let keys = [
     "Jupiter",
     "Saturn",
     "Uranus",
-    "Neptune",
-];
-let slider = new Swiper(".swiper-container", {
-  slidesPreView : "auto",
-  spaceBetween: 150,
-  centeredSlides: true,
-  mousewheel: true,
-  pagination:{
-      el:"planet-links",
+    "Neptune"
+  ];
+  var slider = new Swiper(".swiper-container", {
+    // Optional parameters
+    slidesPerView: "auto",
+    spaceBetween: 150,
+    centeredSlides: true,
+    mousewheel: true,
+    pagination: {
+      el: ".planet-links",
       clickable: true,
-      renderBullet: function(index, className){
-          return 'div class="' + className + '">' + keys[index] + "</div>";
-      }   
-  }
-});
+      renderBullet: function(index, className) {
+        return '<div class="' + className + '">' + keys[index] + "</div>";
+      }
+    }
+  });
 

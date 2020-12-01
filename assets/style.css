@@ -187,4 +187,19 @@ body {
      width: 30%;
      height: 100%;
    }
+   .slide-number{
+     position: absolute;
+     top: -30px;
+     left: 30%;
+     z-index: 10;
+     width: 200px;
+     height: 120px;
+     overflow: hidden;
+   }
+   .slide-number p{
+     font-size: 40px;
+     font-family: "AlphaCentauri" !important;
+     color: #fff;
+     position: relative;
+   }
    
