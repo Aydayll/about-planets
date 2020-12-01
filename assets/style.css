@@ -224,3 +224,30 @@ body {
    .slide-detail p span{
      position: absolute;
    }
+   .slide-detail-facts {
+    position: absolute;
+    top: 240px;
+    left: 30%;
+    z-index: 10;
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    color: #fff;
+   }
+   .slide-detail-facts div{
+    display: flex;
+    position: relative;
+  }
+  .slide-detail-facts div h5{
+    margin-right: 20px;
+  }
+  .slide-text{
+    position: absolute;
+    top: -150px;
+    left: 22%;
+    z-index: 9;
+    width: 200px;
+    height: 400px;
+    overflow: hidden;
+    opacity: 0.1 !important;
+  }

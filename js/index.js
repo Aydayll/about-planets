@@ -12,7 +12,6 @@ var keys = [
     "Neptune"
   ];
   var slider = new Swiper(".swiper-container", {
-    // Optional parameters
     slidesPerView: "auto",
     spaceBetween: 150,
     centeredSlides: true,
