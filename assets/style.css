@@ -202,4 +202,7 @@ body {
      color: #fff;
      position: relative;
    }
+   .slide-number p span{
+     position: absolute;
+   }
    
