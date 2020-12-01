@@ -251,3 +251,8 @@ body {
     overflow: hidden;
     opacity: 0.1 !important;
   }
+  .slide-text h4{
+    color: #fff;
+    font-size: 100px;
+    position: relative;
+  }
