@@ -180,5 +180,11 @@ body {
    .swiper-slide:nth-child(8).slide-img{
     background-image: url(../images/neptune.png);
    }
-   
+   .slide-img{
+     background-position: "center";
+     background-repeat: no-repeat !important;
+     background-size: contain;
+     width: 30%;
+     height: 100%;
+   }
    
