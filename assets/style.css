@@ -156,3 +156,29 @@ body {
     width: 90% !important;
     background: transparent;
   }
+  .swiper-slide:nth-child(1).slide-img{
+   background-image: url(../images/mercury.png);
+  }
+  .swiper-slide:nth-child(2).slide-img{
+    background-image: url(../images/venus.png);
+   }
+   .swiper-slide:nth-child(3).slide-img{
+    background-image: url(../images/earth.png);
+   }
+   .swiper-slide:nth-child(4).slide-img{
+    background-image: url(../images/mars.png);
+   }
+   .swiper-slide:nth-child(5).slide-img{
+    background-image: url(../images/jupiter.png);
+   }
+   .swiper-slide:nth-child(6).slide-img{
+    background-image: url(../images/saturn.png);
+   }
+   .swiper-slide:nth-child(7).slide-img{
+    background-image: url(../images/uranus.png);
+   }
+   .swiper-slide:nth-child(8).slide-img{
+    background-image: url(../images/neptune.png);
+   }
+   
+   
