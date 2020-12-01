@@ -214,4 +214,13 @@ body {
      height: 400px;
      overflow: hidden;
    }
-   
+   .slide-detail p{
+     font-size: 14px;
+     color: #fff;
+     position: relative;
+     opacity: 0.8;
+     line-height: 30px;
+   }
+   .slide-detail p span{
+     position: absolute;
+   }
